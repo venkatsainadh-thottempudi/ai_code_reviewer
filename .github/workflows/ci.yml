@@ -1,0 +1,28 @@
+name: AI Code Reviewer CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  code-review:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install radon pydocstyle typer streamlit pytest
+
+      - name: Run AI Code Reviewer
+        run: |
+          python -m ai_reviewer.cli.main scan . --min-coverage 80

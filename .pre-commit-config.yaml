@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ai-code-review
+        name: AI Code Reviewer
+        entry: python -m ai_reviewer.cli.main scan . --min-coverage 80
+        language: system
+        pass_filenames: false
