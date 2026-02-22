@@ -16,6 +16,15 @@ from ai_reviewer.core.cache import (
 
 # 🔹 Process a single file
 def process_file(file):
+    """
+    Process_file function.
+
+    Args:
+        file (type): Description of file.
+
+    Returns:
+        type: Description of return value.
+    """
     parser = CodeParser(file)
     parser.parse()
 
@@ -55,6 +64,15 @@ def process_file(file):
 
 # 🔹 Main scan function
 def run_scan(directory):
+    """
+    Run_scan function.
+
+    Args:
+        directory (type): Description of directory.
+
+    Returns:
+        type: Description of return value.
+    """
     start_time = time.time()
 
     config = load_config()

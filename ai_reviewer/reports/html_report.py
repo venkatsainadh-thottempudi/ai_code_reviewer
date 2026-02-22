@@ -1,4 +1,14 @@
 def generate_html_report(results, overall):
+    """
+    Generate_html_report function.
+
+    Args:
+        results (type): Description of results.
+        overall (type): Description of overall.
+
+    Returns:
+        type: Description of return value.
+    """
     html = f"""
     <html>
     <head>
