@@ -2,6 +2,17 @@ from datetime import datetime
 
 
 def generate_html_report(results, overall_coverage, output_file="ai_review_report.html"):
+    """
+    Generate_html_report function.
+
+    Args:
+        results (type): Description of results.
+        overall_coverage (type): Description of overall_coverage.
+        output_file (type): Description of output_file.
+
+    Returns:
+        type: Description of return value.
+    """
     html_content = f"""
     <html>
     <head>

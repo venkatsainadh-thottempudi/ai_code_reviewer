@@ -1,4 +1,13 @@
 def calculate_docstring_coverage(functions):
+    """
+    Calculate_docstring_coverage function.
+
+    Args:
+        functions (type): Description of functions.
+
+    Returns:
+        type: Description of return value.
+    """
     if not functions:
         return 100.0
 

@@ -1,0 +1,599 @@
+{
+  ".\\dashboard.py": {
+    "hash": "fb59ef033d8b7aedf3447b9f20930c65f311b954335bd51087ddb57f93e0c7fb",
+    "result": {
+      "file": ".\\dashboard.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\dashboard.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\cli\\main.py": {
+    "hash": "e2a1787f59a69a3d055bc120505048b7af97d96183cbca187611e4250d334991",
+    "result": {
+      "file": ".\\ai_reviewer\\cli\\main.py",
+      "functions": 3,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "scan",
+          "complexity": 8,
+          "docstring": true,
+          "severity": "WARNING"
+        },
+        {
+          "function": "apply",
+          "complexity": 1,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "report",
+          "complexity": 1,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\cli\\main.py:1 at module level:",
+        "        D100: Missing docstring in public module",
+        ".\\ai_reviewer\\cli\\main.py:84 in public function `apply`:",
+        "        D200: One-line docstring should fit on one line with quotes (found 3)",
+        ".\\ai_reviewer\\cli\\main.py:91 in public function `report`:",
+        "        D200: One-line docstring should fit on one line with quotes (found 3)"
+      ],
+      "documented": 3,
+      "total": 3
+    }
+  },
+  ".\\ai_reviewer\\cli\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\cli\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\cli\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\config\\config_loader.py": {
+    "hash": "2b2b5c4a3e644b4ea99c7ffc1f1b0a1c6214006313c5979140704f5870a728d1",
+    "result": {
+      "file": ".\\ai_reviewer\\config\\config_loader.py",
+      "functions": 1,
+      "coverage": 0.0,
+      "issues": [
+        {
+          "function": "load_config",
+          "complexity": 2,
+          "docstring": false,
+          "severity": "WARNING"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\config\\config_loader.py:1 at module level:",
+        "        D100: Missing docstring in public module",
+        ".\\ai_reviewer\\config\\config_loader.py:5 in public function `load_config`:",
+        "        D103: Missing docstring in public function"
+      ],
+      "documented": 0,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\config\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\config\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\config\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\core\\apply_engine.py": {
+    "hash": "1037a6767fbcd4443ac5432bebd8d3ee016f84632621af6cd2774450aa39e654",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\apply_engine.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "run_apply",
+          "complexity": 5,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\apply_engine.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\core\\autofix.py": {
+    "hash": "d74d2d792bf2d796472b65c75cf1654d128d79543f21edb9b19a5cce87fb30af",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\autofix.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "insert_docstring_into_source",
+          "complexity": 5,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\autofix.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\core\\cache.py": {
+    "hash": "3e3703873a687e6895114d3dad18f6af02db46c952b6e4c27443eab3c14eb8db",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\cache.py",
+      "functions": 3,
+      "coverage": 0.0,
+      "issues": [
+        {
+          "function": "calculate_file_hash",
+          "complexity": 1,
+          "docstring": false,
+          "severity": "WARNING"
+        },
+        {
+          "function": "load_cache",
+          "complexity": 2,
+          "docstring": false,
+          "severity": "WARNING"
+        },
+        {
+          "function": "save_cache",
+          "complexity": 1,
+          "docstring": false,
+          "severity": "WARNING"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\cache.py:1 at module level:",
+        "        D100: Missing docstring in public module",
+        ".\\ai_reviewer\\core\\cache.py:8 in public function `calculate_file_hash`:",
+        "        D103: Missing docstring in public function",
+        ".\\ai_reviewer\\core\\cache.py:15 in public function `load_cache`:",
+        "        D103: Missing docstring in public function",
+        ".\\ai_reviewer\\core\\cache.py:23 in public function `save_cache`:",
+        "        D103: Missing docstring in public function"
+      ],
+      "documented": 0,
+      "total": 3
+    }
+  },
+  ".\\ai_reviewer\\core\\complexity.py": {
+    "hash": "511e53cd047321d358a14ce8899bfdd0d8bf7c8a746b169e7551d33119709fc9",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\complexity.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "analyze_complexity",
+          "complexity": 2,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\complexity.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\core\\docstring_generator.py": {
+    "hash": "f249098f7b14b2b548d396165b1ac5b133ebe060fe55e40fbaad5d1ff193b307",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\docstring_generator.py",
+      "functions": 4,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "generate_docstring",
+          "complexity": 4,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "generate_google",
+          "complexity": 3,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "generate_numpy",
+          "complexity": 3,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "generate_rest",
+          "complexity": 2,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\docstring_generator.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 4,
+      "total": 4
+    }
+  },
+  ".\\ai_reviewer\\core\\metrics.py": {
+    "hash": "8b2be03045bda8051f9bf205b133b52cd1993e91f8b46dc2266e4d1a4ce53500",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\metrics.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "calculate_docstring_coverage",
+          "complexity": 4,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\metrics.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\core\\parser.py": {
+    "hash": "b3d5119c0f04627ee4b197e71775dbaf33f01243eda0855aff44bb97e98ec746",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\parser.py",
+      "functions": 4,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "__init__",
+          "complexity": 1,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "parse",
+          "complexity": 1,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "extract_functions",
+          "complexity": 4,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "extract_classes",
+          "complexity": 3,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\parser.py:1 at module level:",
+        "        D100: Missing docstring in public module",
+        ".\\ai_reviewer\\core\\parser.py:4 in public class `CodeParser`:",
+        "        D101: Missing docstring in public class"
+      ],
+      "documented": 4,
+      "total": 4
+    }
+  },
+  ".\\ai_reviewer\\core\\ranking.py": {
+    "hash": "8909ec3b6566c7657268dece8bd1ccd007588a4613f99eca42f5e4b20bd1c0bd",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\ranking.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "determine_severity",
+          "complexity": 4,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\ranking.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\core\\scan_engine.py": {
+    "hash": "d69b805cd150ee3ba1a50e0c037afd23daf7947f7e900788e9f4000d73b0b3c0",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\scan_engine.py",
+      "functions": 2,
+      "coverage": 0.0,
+      "issues": [
+        {
+          "function": "process_file",
+          "complexity": 6,
+          "docstring": false,
+          "severity": "WARNING"
+        },
+        {
+          "function": "run_scan",
+          "complexity": 7,
+          "docstring": false,
+          "severity": "WARNING"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\scan_engine.py:1 at module level:",
+        "        D100: Missing docstring in public module",
+        ".\\ai_reviewer\\core\\scan_engine.py:18 in public function `process_file`:",
+        "        D103: Missing docstring in public function",
+        ".\\ai_reviewer\\core\\scan_engine.py:57 in public function `run_scan`:",
+        "        D103: Missing docstring in public function"
+      ],
+      "documented": 0,
+      "total": 2
+    }
+  },
+  ".\\ai_reviewer\\core\\test_parser_run.py": {
+    "hash": "7dd8bbdcd8512f2ca0dbfe7beed9b565cb4101fe93f1fa2b601f3f1c1f5a7cae",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\test_parser_run.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\core\\validator.py": {
+    "hash": "9abf0fdc366c839e809c52acb4ae21d75f79ed0c2d9e452357810c0732a16e0b",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\validator.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "run_pydocstyle",
+          "complexity": 3,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\validator.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\core\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\core\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\core\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\integrations\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\integrations\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\integrations\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\reports\\html_exporter.py": {
+    "hash": "d2b64032efbc661689d8ae66f06d2ba0a4c9cadc9712ae906ff61e08be78429b",
+    "result": {
+      "file": ".\\ai_reviewer\\reports\\html_exporter.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "generate_html_report",
+          "complexity": 3,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\reports\\html_exporter.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\reports\\html_report.py": {
+    "hash": "3dbd99f1375802403506b3cffe69b6858e6b4e032a0901c97508ea7c45d61192",
+    "result": {
+      "file": ".\\ai_reviewer\\reports\\html_report.py",
+      "functions": 1,
+      "coverage": 0.0,
+      "issues": [
+        {
+          "function": "generate_html_report",
+          "complexity": 5,
+          "docstring": false,
+          "severity": "WARNING"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\reports\\html_report.py:1 at module level:",
+        "        D100: Missing docstring in public module",
+        ".\\ai_reviewer\\reports\\html_report.py:1 in public function `generate_html_report`:",
+        "        D103: Missing docstring in public function"
+      ],
+      "documented": 0,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\reports\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\reports\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\reports\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\ui\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\ui\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\ui\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\ai_reviewer\\utils\\file_scanner.py": {
+    "hash": "a8b38331884a248dbb884d3a4860f95dc5c2ceb3c5eb0ab434317e1d3c682151",
+    "result": {
+      "file": ".\\ai_reviewer\\utils\\file_scanner.py",
+      "functions": 1,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "scan_python_files",
+          "complexity": 7,
+          "docstring": true,
+          "severity": "WARNING"
+        }
+      ],
+      "style_issues": [
+        ".\\ai_reviewer\\utils\\file_scanner.py:1 at module level:",
+        "        D100: Missing docstring in public module"
+      ],
+      "documented": 1,
+      "total": 1
+    }
+  },
+  ".\\ai_reviewer\\utils\\__init__.py": {
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "result": {
+      "file": ".\\ai_reviewer\\utils\\__init__.py",
+      "functions": 0,
+      "coverage": 100.0,
+      "issues": [],
+      "style_issues": [
+        ".\\ai_reviewer\\utils\\__init__.py:1 at module level:",
+        "        D104: Missing docstring in public package"
+      ],
+      "documented": 0,
+      "total": 0
+    }
+  },
+  ".\\examples\\sample.py": {
+    "hash": "63e751790252689f4613bcbf6450b26151b6767dc0db6c53564817dae6125eca",
+    "result": {
+      "file": ".\\examples\\sample.py",
+      "functions": 2,
+      "coverage": 100.0,
+      "issues": [
+        {
+          "function": "add",
+          "complexity": 1,
+          "docstring": true,
+          "severity": "INFO"
+        },
+        {
+          "function": "multiply",
+          "complexity": 1,
+          "docstring": true,
+          "severity": "INFO"
+        }
+      ],
+      "style_issues": [
+        ".\\examples\\sample.py:1 at module level:",
+        "        D100: Missing docstring in public module",
+        ".\\examples\\sample.py:2 in public function `add`:",
+        "        D403: First word of the first line should be properly capitalized ('Add', not 'add')",
+        ".\\examples\\sample.py:15 in public class `Calculator`:",
+        "        D101: Missing docstring in public class",
+        ".\\examples\\sample.py:17 in public method `multiply`:",
+        "        D403: First word of the first line should be properly capitalized ('Multiply', not 'multiply')"
+      ],
+      "documented": 2,
+      "total": 2
+    }
+  }
+}

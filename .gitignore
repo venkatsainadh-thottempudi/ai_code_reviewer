@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# AI reviewer cache
+.ai_reviewer_cache.json
+
+# Virtual environment
+venv/

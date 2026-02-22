@@ -1,0 +1,6 @@
+streamlit
+typer
+radon
+pydocstyle
+matplotlib
+pandas

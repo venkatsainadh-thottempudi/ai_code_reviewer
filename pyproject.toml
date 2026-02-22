@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-code-reviewer"
+version = "0.1.0"
+description = "AI-powered code review and docstring analysis tool"
+authors = [
+    { name = "Venkatsainadh Thottempudi" }
+]
+dependencies = [
+    "typer",
+    "radon",
+    "pydocstyle",
+    "streamlit"
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+ai-review = "ai_reviewer.cli.main:app"
+
+[tool.ai_reviewer]
+min_coverage = 80
+style = "google"
+exclude = ["venv", "__pycache__"]

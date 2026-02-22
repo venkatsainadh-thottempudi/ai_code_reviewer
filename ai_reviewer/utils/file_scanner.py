@@ -2,6 +2,16 @@ import os
 
 
 def scan_python_files(directory, exclude=None):
+    """
+    Scan_python_files function.
+
+    Args:
+        directory (type): Description of directory.
+        exclude (type): Description of exclude.
+
+    Returns:
+        type: Description of return value.
+    """
     if exclude is None:
         exclude = []
 

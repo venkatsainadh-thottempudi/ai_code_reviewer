@@ -3,11 +3,30 @@ import ast
 
 class CodeParser:
     def __init__(self, file_path):
+        """
+        __init__ function.
+
+        Args:
+            self (type): Description of self.
+            file_path (type): Description of file_path.
+
+        Returns:
+            type: Description of return value.
+        """
         self.file_path = file_path
         self.tree = None
         self.source_code = None
 
     def parse(self):
+        """
+        Parse function.
+
+        Args:
+            self (type): Description of self.
+
+        Returns:
+            type: Description of return value.
+        """
         with open(self.file_path, "r", encoding="utf-8") as f:
             self.source_code = f.read()
 
@@ -15,6 +34,15 @@ class CodeParser:
         return self.tree
 
     def extract_functions(self):
+        """
+        Extract_functions function.
+
+        Args:
+            self (type): Description of self.
+
+        Returns:
+            type: Description of return value.
+        """
         functions = []
 
         for node in ast.walk(self.tree):
@@ -30,6 +58,15 @@ class CodeParser:
         return functions
 
     def extract_classes(self):
+        """
+        Extract_classes function.
+
+        Args:
+            self (type): Description of self.
+
+        Returns:
+            type: Description of return value.
+        """
         classes = []
 
         for node in ast.walk(self.tree):

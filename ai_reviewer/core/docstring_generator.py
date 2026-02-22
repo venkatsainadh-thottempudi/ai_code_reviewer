@@ -1,4 +1,14 @@
 def generate_docstring(function_info, style="google"):
+    """
+    Generate_docstring function.
+
+    Args:
+        function_info (type): Description of function_info.
+        style (type): Description of style.
+
+    Returns:
+        type: Description of return value.
+    """
     name = function_info["name"]
     args = function_info["args"]
 
@@ -13,6 +23,16 @@ def generate_docstring(function_info, style="google"):
 
 
 def generate_google(name, args):
+    """
+    Generate_google function.
+
+    Args:
+        name (type): Description of name.
+        args (type): Description of args.
+
+    Returns:
+        type: Description of return value.
+    """
     doc = '"""\n'
     doc += f"{name.capitalize()} function.\n\n"
 
@@ -29,6 +49,16 @@ def generate_google(name, args):
 
 
 def generate_numpy(name, args):
+    """
+    Generate_numpy function.
+
+    Args:
+        name (type): Description of name.
+        args (type): Description of args.
+
+    Returns:
+        type: Description of return value.
+    """
     doc = '"""\n'
     doc += f"{name.capitalize()} function.\n\n"
 
@@ -49,6 +79,16 @@ def generate_numpy(name, args):
 
 
 def generate_rest(name, args):
+    """
+    Generate_rest function.
+
+    Args:
+        name (type): Description of name.
+        args (type): Description of args.
+
+    Returns:
+        type: Description of return value.
+    """
     doc = '"""\n'
     doc += f"{name.capitalize()} function.\n\n"
 

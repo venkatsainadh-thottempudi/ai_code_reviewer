@@ -5,6 +5,16 @@ from ai_reviewer.core.autofix import insert_docstring_into_source
 
 
 def run_apply(directory, style="google"):
+    """
+    Run_apply function.
+
+    Args:
+        directory (type): Description of directory.
+        style (type): Description of style.
+
+    Returns:
+        type: Description of return value.
+    """
     files = scan_python_files(directory, exclude=["venv", "__pycache__"])
 
     for file in files:
