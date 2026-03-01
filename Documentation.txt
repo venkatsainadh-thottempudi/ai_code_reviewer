@@ -1,0 +1,87 @@
+===========================================================================
+                     AI CODE REVIEWER - DOCUMENTATION
+===========================================================================
+Repository: github.com/venkatsainadh-thottempudi/ai_code_reviewer
+Author: Venkat Sainadh Thottempudi
+Category: DevOps / AI / Software Engineering
+===========================================================================
+
+1. PROJECT OVERVIEW
+-------------------
+The AI Code Reviewer is an automated tool designed to assist developers 
+by analyzing source code using Large Language Models (LLMs). It acts as 
+a "second pair of eyes" to catch bugs, security vulnerabilities, and 
+inefficiencies before code is merged into a production branch.
+
+2. CORE FEATURES
+----------------
+* Automated Feedback: Instant review of pull requests or local files.
+* Security Audit: Identifies common patterns related to SQL injection, 
+  XSS, and hardcoded credentials.
+* Performance Optimization: Suggests better algorithmic approaches or 
+  more efficient syntax.
+* Style Compliance: Checks for PEP8 (Python) or language-specific 
+  naming conventions.
+
+3. TECHNICAL REQUIREMENTS
+-------------------------
+* Operating System: Windows, macOS, or Linux.
+* Programming Language: Python 3.9+
+* API Access: A valid API key for Google Gemini (Nano Banana) or OpenAI.
+* Libraries: requests, python-dotenv, google-generativeai.
+
+4. SETUP & INSTALLATION
+-----------------------
+1. Clone the repository:
+   git clone https://github.com/venkatsainadh-thottempudi/ai_code_reviewer.git
+
+2. Navigate to the directory:
+   cd ai_code_reviewer
+
+3. Install required packages:
+   pip install -r requirements.txt
+
+4. Configure Environment:
+   Create a file named '.env' and add your API key:
+   API_KEY=your_actual_api_key_here
+
+5. HOW TO USE
+-------------
+A. CLI Usage:
+   Run the script via terminal to analyze a specific file:
+   > python main.py --file ./path/to/your/code.py
+
+B. GitHub Actions Integration:
+   Add this project to your .github/workflows to trigger a review 
+   every time a developer pushes code or opens a Pull Request.
+
+6. PROJECT STRUCTURE
+--------------------
+/src/
+  ├── engine.py      # Logic for AI prompting and API calls
+  ├── parser.py      # Logic to read and clean source code files
+main.py              # Main entry point for the application
+requirements.txt     # List of Python dependencies
+.env.example         # Template for environment variables
+
+7. LIMITATIONS & BEST PRACTICES
+-------------------------------
+* The AI may occasionally produce "hallucinations." Always verify 
+  suggestions before applying them.
+* Large files should be broken down into modules for better AI 
+  analysis accuracy.
+* Keep your API keys secret; never commit your '.env' file to GitHub.
+
+8. CONTRIBUTING
+---------------
+Contributions are what make the open-source community an amazing place 
+to learn, inspire, and create.
+1. Fork the Project
+2. Create your Feature Branch
+3. Commit your Changes
+4. Push to the Branch
+5. Open a Pull Request
+
+===========================================================================
+DOCUMENTATION END
+===========================================================================
